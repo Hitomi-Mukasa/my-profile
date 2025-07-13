@@ -8,17 +8,12 @@ body {
     padding: 50px;
 }
 
-h1 {
-    color: #a270f8;
-    font-size: 36px;
-}
-
-p {
-    font-size: 18px;
-    color: #7a8ff8
-}
-
-a {
-    color: #7589f9;
-    text-decoration: none;
+.card {
+    background-color: #7a8ff8;
+    border: 1px solid #030367;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 12px rgba(0, 0, 99, 1);
 }
