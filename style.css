@@ -1,19 +1,21 @@
 body {
     background-color: #fef685;
     font-family: "Helvetica",sans-serif;
-    color: #7a8ff8;
+    color: #fbfcfd;
     margin: 40px;
     line-height: 1.6;
     text-align: center;
     padding: 50px;
 }
-
+h1{
+    color: #7a8ff8;
+}
 .card {
     background-color: #7a8ff8;
     border: 1px solid #030367;
     border-radius: 12px;
     padding: 20px;
     margin: 20px auto;
-    max-width: 600px;
+    max-width: 400px;
     box-shadow: 0 4px 12px rgba(0, 0, 99, 1);
 }
