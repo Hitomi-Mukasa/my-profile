@@ -1,10 +1,24 @@
 body {
-    background-color:#f0f0f0;
-    font-family: sans-serif;
+    background-color: #fef685;
+    font-family: "Helvetica",sans-serif;
+    color: #7a8ff8;
+    margin: 40px;
+    line-height: 1.6;
     text-align: center;
     padding: 50px;
 }
 
 h1 {
-    color: #007acc;
+    color: #a270f8;
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    color: #7a8ff8
+}
+
+a {
+    color: #7589f9;
+    text-decoration: none;
 }
