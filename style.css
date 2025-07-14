@@ -11,11 +11,41 @@ h1{
     color: #7a8ff8;
 }
 .card {
+    flex: 0 0 auto;
+    width: 220px;
+
     background-color: #7a8ff8;
     border: 1px solid #030367;
     border-radius: 12px;
-    padding: 20px;
+    padding: 16px;
     margin: 20px auto;
     max-width: 400px;
     box-shadow: 0 4px 12px rgba(0, 0, 99, 1);
+    text-align: center;
+    scroll-snap-align: start;
+    transition: transform 0.6s ease;
+}
+.scroll-container{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    }
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+.card:hover{
+    transform: rotateY(360deg);
+}
+.card p {
+    font-size: 14px;
+}
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
