@@ -57,3 +57,18 @@ h1{
 .card-wrapper{
     perspective: 1000px;
 }
+
+@media screen and (max-width: 600px) {
+    .scroll-container {
+        gap: 12px;
+        padding: 12px;
+    }
+    .card {
+        width: 180px;
+        font-size: 13px;
+        padding: 12px;
+    }
+    .card p {
+        font-size: 12px;
+    }
+}
